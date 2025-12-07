@@ -11,6 +11,7 @@
     "build:html": "cp src/index.html dist/index.html",
     "build:assets": "cp -r src/assets dist/assets 2>/dev/null || true",
     "build:static": "mkdir -p dist && npm run build:scss && npm run build:ts && npm run build:html && npm run build:assets",
+    "start:static": "npm run build:static && python3 -m http.server 8080 --bind 0.0.0.0 --directory dist",
     "serve:static": "python3 -m http.server 8080 --bind 0.0.0.0 --directory dist",
     "test": "vitest && playwright test --reporter=dot",
     "test:watch": "vitest --watch",
