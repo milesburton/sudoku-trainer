@@ -15,6 +15,11 @@ This project demonstrates a compact Angular 19 generic alert-centre system with 
 - Publish directory: `dist/alert-ui-example/browser`
 # Sudoku Trainer
 
+![GitHub Pages Deploy](https://github.com/milesburton/sudoku-trainer/actions/workflows/pages.yml/badge.svg)
+![Static Site](https://img.shields.io/badge/site-static-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6?logo=typescript&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-enabled-c6538c?logo=sass&logoColor=white)
+
 A lightweight, static Sudoku learning app. Built with TypeScript and SCSS (design tokens), deployed via GitHub Pages.
 
 Short description: A static, step-by-step Sudoku tutor built with TypeScript and SCSS.
