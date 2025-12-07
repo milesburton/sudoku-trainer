@@ -20,6 +20,8 @@ This project demonstrates a compact Angular 19 generic alert-centre system with 
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6?logo=typescript&logoColor=white)
 ![SCSS](https://img.shields.io/badge/SCSS-enabled-c6538c?logo=sass&logoColor=white)
 
+**Live Site:** https://milesburton.github.io/sudoku-trainer/
+
 A lightweight, static Sudoku learning app. Built with TypeScript and SCSS (design tokens), deployed via GitHub Pages.
 
 Short description: A static, step-by-step Sudoku tutor built with TypeScript and SCSS.
@@ -74,3 +76,7 @@ npm run serve:static
 - Lint: `npm run lint`
 
 - Pre-commit: `lint-staged` via Husky
+
+## Badges (Optional)
+- ![Last Commit](https://img.shields.io/github/last-commit/milesburton/sudoku-trainer)
+- ![Code Size](https://img.shields.io/github/languages/code-size/milesburton/sudoku-trainer)
