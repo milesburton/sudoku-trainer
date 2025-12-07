@@ -65,8 +65,6 @@ npm run serve:static
 - Push to `main`. GitHub Actions (`pages.yml`) builds and publishes `dist/`.
 - In repo Settings → Pages, set Source to “GitHub Actions”.
 
-<!-- Deployment trigger: 2025-12-07T11:55Z -->
-
 ## Notes
 - Source of truth lives in `src/` (TS + SCSS). Built files live in `dist/`.
 - Playwright tooling is kept with a placeholder spec under `e2e/`.
