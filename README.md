@@ -8,9 +8,6 @@
 
 This project demonstrates a compact Angular 19 generic alert-centre system with Pokémon-themed mock data:
 
-- Angular 19
-- NgRx 19
-- PrimeNG
 - Build command: `npm run build`
 - Publish directory: `dist/alert-ui-example/browser`
 # Sudoku Trainer
