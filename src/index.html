@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Sudoku - Step by Step</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🧩 Learn to Solve Sudoku</h1>
+        
+        <div class="intro">
+            <h3>📚 The Three Golden Rules of Sudoku:</h3>
+            <ol style="font-size: 16px; line-height: 1.8;">
+                <li>Each <strong>row</strong> must contain the numbers 1-9 (no repeats)</li>
+                <li>Each <strong>column</strong> must contain the numbers 1-9 (no repeats)</li>
+                <li>Each <strong>3×3 box</strong> must contain the numbers 1-9 (no repeats)</li>
+            </ol>
+            <p style="margin-top: 15px; font-weight: 500;">A cell can only contain a number that doesn't violate ANY of these three rules!</p>
+        </div>
+
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-box" style="background: #e3f2fd; color: #1565c0;">5</div>
+                <span><strong>Given</strong> numbers</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-box" style="background: #c8e6c9; color: #2e7d32;">7</div>
+                <span><strong>Solved</strong> numbers</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-box" style="background: #ffd54f;">?</div>
+                <span><strong>Current</strong> focus</span>
+            </div>
+        </div>
+
+        <div class="step-counter" id="stepCounter">
+            Welcome! Click "Next Step" to begin learning
+        </div>
+        
+        <div class="progress">
+            <div class="progress-bar" id="progressBar" style="width: 0%"></div>
+        </div>
+        
+        <div class="grid-container">
+            <div class="sudoku-grid" id="grid"></div>
+        </div>
+        
+        <div class="controls">
+            <button id="prevBtn" onclick="previousStep()" disabled>⬅ Previous</button>
+            <button id="nextBtn" onclick="nextStep()">Next Step ➡</button>
+            <button onclick="resetPuzzle()">🔄 Start Over</button>
+        </div>
+        
+        <div class="explanation" id="explanation">
+            <h3>Ready to Learn Sudoku?</h3>
+            <p>I'll guide you through solving a complete puzzle, explaining each step carefully. You'll learn the most important technique: <strong>finding cells where only one number is possible</strong>.</p>
+            <p>Click <strong>"Next Step"</strong> when you're ready to begin!</p>
+        </div>
+
+        <div class="completed" id="completed">
+            <h2 style="margin-top: 0;">🎉 Congratulations!</h2>
+            <p>You've successfully learned how to solve Sudoku!</p>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+    
+</body>
+</html>
