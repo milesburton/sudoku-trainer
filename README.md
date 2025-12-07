@@ -73,7 +73,3 @@ npm run serve:static
 - Lint: `npm run lint`
 
 - Pre-commit: `lint-staged` via Husky
-
-## Badges (Optional)
-- ![Last Commit](https://img.shields.io/github/last-commit/milesburton/sudoku-trainer)
-- ![Code Size](https://img.shields.io/github/languages/code-size/milesburton/sudoku-trainer)
